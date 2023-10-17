@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+/*text styles*/
+
+.h1 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+.h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+.h3 {
+  font-weight: 500;
+  font-size: 21px;
+  color: #ffffff;
+}
+.text {
+  max-width: 540px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  line-height: 26.25px;
+}
+
+/*button styles*/
+.write_me {
+  background-color: #34547a;
+  max-width: 225px;
+  height: 65px;
+  padding: 20px 41px;
+  letter-spacing: 1.6px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.25px;
+  border: none;
+}
+.write_me:hover {
+  background-color: darkgrey;
+  box-shadow: 5px 5px 10px 1px #000;
+}
+
+/* common styles */
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.content_box {
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* first sections styles */
+
+.first_section {
+  background-color: #eeeff1;
+}
+
+/*navigation*/
+
+.nav {
+  padding-top: 79px;
+  margin-bottom: 151px;
+}
+.nav_content {
+  display: inline-block;
+  margin-right: 42px;
+}
+.nav_link {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #34547a;
+}
+.nav_link.active {
+  color: #f00;
+}
+.nav_link:hover {
+  color: #f00;
+}
+
+/*main*/
+.main {
+  padding-bottom: 141px;
+}
+.mb65 {
+  margin-bottom: 65px;
+}
+
+/*about me*/
+.about_me {
+  padding-top: 112px;
+  background-color: #ffffff;
+}
+.mb100 {
+  margin-bottom: 100px;
+}
+
+/*works section*/
+.works {
+  background-color: #34547a;
+  padding: 100px 0px;
+}
+.works_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.works_item {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+.works_txt {
+  max-width: 71px;
+}
+.works_item p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+/*process section*/
+.process {
+  padding: 100px 0px;
+  background-color: #eeeff1;
+}
+.mb57 {
+  margin-bottom: 57px;
+}
+.video {
+  max-width: 1110px;
+  height: 600px;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+
+/*footer*/
+.contacts {
+  background-color: #34547a;
+  padding: 50px 0px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.copyright {
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+  line-height: 21.33px;
+}
