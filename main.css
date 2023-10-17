@@ -45,13 +45,18 @@ body {
   background-color: #34547a;
   max-width: 225px;
   height: 65px;
-  padding: 20px 41px;
+  border: none;
+}
+.button_txt {
+  width: 143px;
+  height: 26px;
+  margin: 20px 41px;
+  text-align: center;
   letter-spacing: 1.6px;
   color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 26.25px;
-  border: none;
 }
 .write_me:hover {
   background-color: darkgrey;
